@@ -42,7 +42,7 @@ public class BitWiseOperator {
 		
 		System.out.println("국어점수(정수) 영어점수(정수) 평균(실수) 로 입력해주세요>>>");
 		
-	 //	int kor2 = sc.nextInt(); //30ㅁ 뒤에 Int를 붙여주려면 앞에 int를 붙여서 똑같이 만들어주면 오류가 안난다.
+	 //	int kor2 = sc.nextInt(); // 뒤에 Int를 붙여주려면 앞에 int를 붙여서 똑같이 만들어주면 오류가 안난다.
      // kor = sc.nextInt(); <- 오류 발생 kor는 위에 보면 str이기 때문
 		kor = sc.next();
 		eng = sc.next();

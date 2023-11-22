@@ -14,7 +14,7 @@ public class AritheticOperator {
 		System.out.println(a + b); // 15
 		System.out.println(a - b); // -5
 		System.out.println(a * b); // 50
-		System.out.println(a / b); // 나누어서 목만 출력, 0
+		System.out.println(a / b); // 나누어서 몫만 출력, 0
 		System.out.println(a % b); // 나머지만 출력, 5     <- 중요!!!
 		
 		// 캐스해서 연산
@@ -24,8 +24,8 @@ public class AritheticOperator {
 		   // 값 % 3 = 0일 때 값은 3의 배수
 		   // 값 % 5 = 0일 때 값은 5의 배수
 		
-		System.out.println(8 / 5);  // 목만 출력,
-		System.out.println( (int)(8 / 5.0)  );  // 목만 출력,
+		System.out.println(8 / 5);  // 몫만 출력,
+		System.out.println( (int)(8 / 5.0)  );  // 몫만 출력,
 		System.out.println( 8 % 5);   // 나머지만 출력
 		System.out.println( 8 / 5.0);
 		System.out.println("=================================");
@@ -35,7 +35,7 @@ public class AritheticOperator {
 		int va11 = 3;
 		System.out.println(++va11);  // 4 , 값을 증가 후 출력
 		System.out.println(va11++);  // 4
-		System.out.println(va11);
+		System.out.println(va11);    // 5
 		
 		System.out.println(--va11);  // 3
 		System.out.println(va11--);  // 3

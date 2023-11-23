@@ -1,4 +1,4 @@
-package chap2.ex01;
+package chap02.ex01;
 
 import java.lang.reflect.Method;
 

@@ -47,7 +47,7 @@ public class UsingScanner {
 	    System.out.println("========================");
 	    
 	    System.out.println("=============세번째 학생================");
-		System.out.println("학생2의 [이름 국어점수 영어점수 수학점수]를 입력하세요>>>");
+		System.out.println("학생3의 [이름 국어점수 영어점수 수학점수]를 입력하세요>>>");
 		// 코드 부분
 		stu = sc.next();     // 콘솔에서 인풋을 대기
 		kor = sc.nextInt();
@@ -59,8 +59,6 @@ public class UsingScanner {
 	
 		System.out.println(stu + "의 모든 점수의 합계는 " + hap + "점이고 평균은 " + avg + " 입니다.");  // 출력 결과				
 	    System.out.println("========================");
-
-
+	    
 	}
-
 }

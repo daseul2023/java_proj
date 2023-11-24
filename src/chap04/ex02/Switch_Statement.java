@@ -12,7 +12,7 @@ public class Switch_Statement {
 		
 		int val1 = 2;
 		
-		switch (val1) {                 // val1 : 점프 변수, case에 할당된 값으로 점프   <- 정수(Integer), 문자 (char), 문자열 (String)
+		switch (val1) {                 // val1 : 점프 변수, case에 할당된 값으로 점프   <- 정수(Integer), 문자 (char) ' ' 들어가고 , 문자열 (String) " " 들어가야함
 		case 1 : 
 			System.out.println("A");
 		//  break;

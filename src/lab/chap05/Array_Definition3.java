@@ -15,7 +15,7 @@ public class Array_Definition3 {
 	
 		// 1. Scanner 선언 
 		Scanner sc = new Scanner(System.in);  //콘솔로 값을 인풋 
-		
+	
 		// 내부 블락에서 사용할 변수 선언 
 		// 배열 변수 , 스캐너로 선택하는 변수 , 배열의 방의 크기를 스캐너로 받는 변수 
 //		int[] arr1 = new int[50] ; 
@@ -79,7 +79,7 @@ public class Array_Definition3 {
 				int a = 1 ;  
 				for ( int i = 0 ; i < arr.length ; a++  ) {       // i : 방번호 , a : 값 
 					
-					if ( a % 4 == 0 ) { continue ; }  // a 변수의 값이 4의 배수일때는 아래 내용을 싱행 하지 않는다. 
+					if ( a % 4 == 0 ) { continue ; }  // a 변수의 값이 4의 배수일때는 아래 내용을 실행 하지 않는다. 
 					
 					arr[i] = a ; 
 					i++; 

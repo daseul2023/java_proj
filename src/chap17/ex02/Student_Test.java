@@ -28,6 +28,18 @@ public class Student_Test {
 		
 		System.out.println("================================");
 		
+		int[] arr = new int [] { 1,2,1,3,3,3,4,5,5 };
+		
+		// 1. Method ( 클래스 , 타입)  --> 객체 생성
+		Method m =new Method();
+		m.arrayListOut(aList);
+		
+		System.out.println("================================");
+		m.arrayOutput(arr, 3);
+		
+		System.out.println("================================");
+		m.nameAddr(aList);
+		
 
 	}
 

@@ -1,4 +1,4 @@
-package lab.chap10;
+package lab.chap10.animal;
 
 public class TigerChild extends Tiger {               // Tiger 의 자식
 

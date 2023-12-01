@@ -1,4 +1,4 @@
-package lab.chap10;
+package lab.chap10.animal;
 
 public class Tiger extends Animal {          // Animal 을 상속
 

@@ -1,4 +1,4 @@
-package lab.chap10;
+package lab.chap10.animal;
 
 public class Animal {        // 최상위 부모
 	

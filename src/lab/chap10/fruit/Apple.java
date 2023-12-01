@@ -15,6 +15,7 @@ public class Apple extends Fruit{
 	void totalPrice() {            // 코드 작성 : cnt * price
 		// 출력 : " 000 의 전체 가격 : 00 원 입니다.
 		System.out.println(super.name +"의 전체가격 : " + (super.cnt * super.price) + "원 입니다.");
+		
 	}
 
 }

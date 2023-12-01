@@ -7,6 +7,8 @@ import java.lang.reflect.Method;
 public class UsageOfDataType {  // 클래스 영역
 	public static void main(String[] args) { // 메인 메소드 영역
 	    // 변수 : 한번 선언 후 변수의 값을 다른 값을 할당 할 수 있다. , 소문자로 시작해서 캐멀케이스 이름 작성
+		      // _ $  특수문자는 두가지만 사용 가능
+		      // 숫자가 앞에 오면 안됨, 공백은 들어가면 안됨.
 		// 상수 : 변수 선언 앞에 final 키가 등록됨, 상수명은 대문자로만 지정, 한번 값을 할당하면 그 값을 수정할 수 없다.
 		
 		/* 자료형 : 변수/상수를 정의할 때 반드시 자료형이 와야함.

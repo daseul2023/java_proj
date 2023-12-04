@@ -95,7 +95,6 @@ public class MovieMgr{
 	        	movies.remove(i);
 	        	System.out.println("영화 명: " + title + "인 행이 삭제되었습니다.");
 	            s = true;
-	            break;
 	        }
 	    }
 	    // 반복문을 모두 돌고 나서 일치하는 영화가 없으면 해당 메시지 출력

@@ -10,7 +10,7 @@ public class Method {
 	
 	// 2. 기본 생성자 생략됨, Method(){}
 	
-	// 3. 메소드 : 인풋 -- (프로램) ---> 출력, 객체 생성 후 메소드 호출
+	// 3. 메소드 : 인풋 -- (프로그램) ---> 출력, 객체 생성 후 메소드 호출
 	void arrayListOut (List<Student>aList) {
 		// aList 인풋 받아서 aList의 <Student> 객체를 끄집어내서 모든 필드의 내용을 출력
 		

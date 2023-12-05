@@ -11,48 +11,66 @@ public class Test_Mgr {
 	List <Test> tests = new ArrayList <>(); 
 	
 	void add(Test t) {
+		tests.add(t);
 		
 	}
 	
 	void search () {
+		index = 0;
 		for (int i=0; i<tests.size(); i++) {
-			tests.get(i);
-			
+			System.out.println(++index + ". " + tests.get(i));
 		}
 		
 	}
 	void search (String title) {
-		boolean a = false;
-		for(int i=0; i<tests.size(); i++) {
-			tests.get(i).setTitle(title);
-			if (title.equals(title)) {
-				
+		List<Test> findTitle = new ArrayList<>();
+		
+		for (int i = 0; i<tests.size(); i++) {
+			if (tests.get(i).getTitle().equals(title)) {
+				findTitle.add(tests.get(i));
 			}
+		}
+		System.out.println("영화 제목으로 검색하세요>>>");
+		index = 0;
+		for (int i =0; i<tests.size(); i++) {
+			System.out.println(++index + ". " + findTitle.get(i));
 		}
 	}
 	
 	void searchDirector (String name) {
+		List<Test> findDirector = new ArrayList<>();
+		index = 0;
+		for (int i = 0; i<tests.size(); i++) {
+			if (tests.get(i).getDirector().equals(name)) {
+				findDirector.add(tests.get(i));
+			}
+		}
+		System.out.println("영화 감독으로 검색하세요>>>");
 		for (int i =0; i<tests.size(); i++) {
-			tests.get(i).setDirector(name);
+			System.out.println(++index + ". " + findDirector.get(i));
 		}
 		
 	}
 	List<Test> searchGenre (String genre){
-		List<Test> aList = new ArrayList<>();
-		boolean a =false;
-		for (int i =0; i<aList.size(); i++) {
-			a = true;
-		}
+		List<Test> findGenre = new ArrayList<>();
 		
-		if (!a) {
-			System.out.println("다시 입력하세요>>>");
+		for (int i = 0; i <tests.size(); i++) {
+			if (tests.get(i).getGenre().equals(genre)) {
+				findGenre.add(tests.get(i));
+			}
+			
 		}
-		
-		return aList;
+		return findGenre;
 		
 	}
 	void delete (String title) {
-		
+		for (int i=0; i< tests.size(); i++) {
+			if (tests.get(i).getTitle().equals(title)) {
+				tests.remove(i);
+			}
+		}
+		System.out.println("해당 영화 제목 : " + title + "이 삭제되었습니다.");
 	}
+	
 
 }
